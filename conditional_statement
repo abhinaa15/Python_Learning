@@ -1,0 +1,21 @@
+"""""
+if condition:
+   statements
+"""
+""""
+age=int(input("enter your age :"))
+if age>=18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+"""
+
+""""
+num=int(input("Enter the number:"))
+if num%2==0:
+    print(num,"is even")
+else:
+    print(num,"is odd")
+"""
+
+
