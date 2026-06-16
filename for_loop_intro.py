@@ -47,12 +47,39 @@ for k in range(1,count+1):
     numbers=numbers+[num]
 print(numbers)    
 """
-
+"""
 num=int(input("Enter the number :"))
 numbers=[]
 for k in range(2,7,8,10,4):
     if k%2==0:
-        print(k)
+        print(k) 
+"""
+"""
+first,second=0,1
+
+print(first,second)
+for k in range(8):
+    third=first+second
+    print(third)
+    first,second=second,third
+"""
+"""
+first,second=0,1
+
+print(first,second,end="")
+for k in range(8):
+    third=first+second
+    print(third,end="")
+    first,second=second,third
+ """
+num=int(input("enter the number:"))
+for k in range(1,12):
+    print(f" {n} * {num}={n*num}")  
+
+
+
+
+
 
     
 
