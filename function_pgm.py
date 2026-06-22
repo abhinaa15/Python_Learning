@@ -32,13 +32,17 @@ def fact(num):
 print("Factorial of 5 is : ",fact(5))
 '''
 
-
+'''
 def fact(num):
     if num==1:
         return num
     else:
         return num*fact(num-1)
 print("factorial of 3 is : ",fact(3))
+'''
+
+add=lambda a,b:a+b
+print(add(31,12))
 
 
 

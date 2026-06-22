@@ -8,4 +8,4 @@ print(numbers)
 '''
 
 numbers=[1,"John",2,"Kochi",3,4,"Python",5,6,7]
-print(numbers[::-1])
+print(numbers[1:-3])

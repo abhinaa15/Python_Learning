@@ -72,9 +72,9 @@ for k in range(8):
     print(third,end="")
     first,second=second,third
  """
-num=int(input("enter the number:"))
-for k in range(1,12):
-    print(f" {n} * {num}={n*num}")  
+num=int(input("enter the number : "))
+for n in range(1,12):
+    print(f"{n} * {num} = {n*num}")  
 
 
 
