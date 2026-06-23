@@ -1,3 +1,6 @@
+
+
+
 '''
 def add(*args):
     total=0
@@ -23,6 +26,7 @@ def add(*args):
     return total
 add(34,12)
 '''
+
 '''
 def fact(num):
     if num==1:
@@ -31,7 +35,6 @@ def fact(num):
         return num*fact(num-1)
 print("Factorial of 5 is : ",fact(5))
 '''
-
 '''
 def fact(num):
     if num==1:
@@ -41,8 +44,20 @@ def fact(num):
 print("factorial of 3 is : ",fact(3))
 '''
 
+'''
 add=lambda a,b:a+b
 print(add(31,12))
+'''
+
+'''
+is_even=lambda num: num % 2 ==0
+print(is_even(12))
+'''
+
+is_even=lambda num: num % 2 ==0
+print(is_even(12))
+print(is_even(9))
+
 
 
 
