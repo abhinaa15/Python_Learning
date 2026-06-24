@@ -1,5 +1,5 @@
-'''
-character count from string
+
+#character count from string
 
 s=input("Enter your string:")
 d={}
@@ -11,7 +11,7 @@ for k in s:
         d[k]=1
 for n in d:
     print(f"{n}={d[n]}")
-'''
+
 '''
 numbers=[19,2,1,23,8]
 n=len(numbers)
@@ -21,7 +21,7 @@ for k in range(n-1):
             numbers[v],numbers[v+1]=numbers[v+1],numbers[v]
 print(numbers)
 '''
-
+'''
 count=int(input("How many numbers you wish to enter:"))
 numbers=[]
 for k in range(1,count+1):
@@ -33,6 +33,7 @@ for k in range(n-1):
         if numbers[v]>numbers[v+1]:
             numbers[v],numbers[v+1]=numbers[v+1],numbers[v]
 print(numbers)
+'''
     
     
 
